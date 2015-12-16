@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <main id="fullpage">
+  <section id="home" class="panel panel-cover">
+    <div class="choose-side">
+      <div class="header-title text-center">
+        <img src="img/star-wars-logo.png" />
+        <h1>
+          <span class="line-core left"></span>
+          <span>Choose your Path</span>
+          <span class="line-core right"></span>
+        </h1>
+      </div>
+      <div class="light-side">
+        <a class="votes" href="#"><img class="crest" src="img/Alliance_logo.png"></a>
+        <div class="face" style="background-image:url('img/light-face.png');"></div>
+      </div>
+      <div class="dark-side">
+        <a class="votes" href="#"><img class="crest" src="img/Empire_logo.png"></a>
+        <div class="face" style="background-image:url('img/dark-face.png');"></div>
+      </div>
+    </div>
+  </section>
+  <section id="home" class="panel panel-cover">
+    <div class="panel-bg" style="background-image:url('http://dimbot.dev/theme/Dimbot/img/bg/bg4.png');"></div>
+    <div class="panel-cover-text text-center">
+      <h1 class="panel-cover-title">Annual Report 2014</h1>
+      <blockquote class="panel-cover-blockquote">
+        “The Crop Trust is an international organization working to safeguard crop diversity, forever.”
+        <cite class="panel-cover-cite">Marie Haga <br>Executive Director of the Crop Trust</cite>
+      </blockquote>
+    </div>
+  </section>
+  <section id="home" class="panel panel-cover">
+    <div class="panel-bg" style="background-image:url('http://dimbot.dev/theme/Dimbot/img/bg/bg2.jpg');"></div>
+    <div class="panel-cover-text text-center">
+      <img src="img/star-wars-logo.png" />
+      <h5>In Theaters December</h1>
+    </div>
+  </section>
+  </main>
+{% endblock %}

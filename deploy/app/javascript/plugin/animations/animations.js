@@ -1,0 +1,1 @@
+../../../../../vendors/animations/assets/js/animations.js

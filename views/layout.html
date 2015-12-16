@@ -1,0 +1,28 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0"/>
+  <meta name="viewport" content="target-densitydpi=device-dpi"/>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+  {% block head %}
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/library.min.css">
+    <link type="text/css" rel="stylesheet" href="css/dimbot-production.min.css">
+    <link type="text/css" rel="stylesheet" href="css/animations.min.css">
+  {% endblock %}
+</head>
+<body>
+{% block content %}
+{% endblock %}
+{% block bottom %}
+	<script type="text/javascript" src="js/libs/jquery-2.0.2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+	<script type="text/javascript" src="js/plugin/fullpage/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="js/plugin/animations/animations.min.js"></script>
+{% endblock %}
+</body>
+</html>

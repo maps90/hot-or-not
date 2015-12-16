@@ -1,0 +1,12 @@
+#DIRECTORY
+.sass-cache/
+node_modules/
+deploy/unminified/
+public/js/
+public/css/
+vendors/
+
+#EXTENSIONS
+*.bak
+*.swp
+.DS_Store
