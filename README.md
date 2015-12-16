@@ -7,6 +7,7 @@ hot-or-not is an attempt to make a vote-service using following technologies:
 * [Go] -separated-.
 
 ## HOW TO: INSTALL
+* This repo using submodule, run: git submodule update --init --recursive
 * Dowload and [install Node.js] or u can install using package tool (on ubuntu: apt-get install nodejs).
 * install npm (on ubuntu: apt-get install npm).
 * install grunt
