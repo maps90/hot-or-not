@@ -4,7 +4,7 @@ hot-or-not is an attempt to make a vote-service using following technologies:
 * [Express JS].
 * [Redis].
 * [Grunt].
-* [GOLANG] -separated-.
+* [Go] -separated-.
 
 ## HOW TO: INSTALL
 * Dowload and [install Node.js] or u can install using package tool (on ubuntu: apt-get install nodejs).
@@ -29,3 +29,5 @@ $> DEBUG=hot-or-not npm start
 [install Node.js]:https://nodejs.org/download/
 [Express Generator]:http://expressjs.com/starter/generator.html
 [Grunt]:http://gruntjs.com/
+[Redis]:http://redis.io/
+[Go]:https://golang.org/
